@@ -1,13 +1,13 @@
 buildscript {
     repositories {
-        jcenter()
+        mavenCentral()
         maven {
             name = "forge"
-            url = "http://files.minecraftforge.net/maven"
+            url = "https://maven.minecraftforge.net"
         }
     }
     dependencies {
-        classpath 'net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT'
+        classpath 'com.anatawa12.forge:ForgeGradle:2.3-1.0.8'
     }
 }
 
@@ -23,7 +23,7 @@ if (System.getenv('BUILD_NUMBER') != null) {
 }
 
 minecraft {
-    version = "1.12.2-14.23.5.2836"
+    version = "1.12.2-14.23.5.2847"
     runDir = "run"
     mappings = "stable_39"
     makeObfSourceJar = false
@@ -33,20 +33,17 @@ minecraft {
 
 repositories {
     maven {
-        url "https://dvs1.progwml6.com/files/maven"
+        url "https://repo.cleanroommc.com/releases"
     }
     maven {
-        url "https://maven.tehnut.info"
-    }
-    maven {
-        url "https://dl.bintray.com/cyclopsmc/dev/"
+        url "https://curse.cleanroommc.com"
     }
 }
 
 dependencies {
-    deobfCompile "mezz.jei:jei_1.12.2:+"
-    deobfCompile "mcp.mobius.waila:Hwyla:1.8+"
-    deobfCompile ("org.cyclops.commoncapabilities:CommonCapabilities:1.12.2-+")
+    implementation "mezz:jei:4.31.1"
+    implementation "curse.maven:hwyla-253449:2568752"
+    implementation "curse.maven:common-capabilities-247007:3053018"
 }
 
 processResources {
