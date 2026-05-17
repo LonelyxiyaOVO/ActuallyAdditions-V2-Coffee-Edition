@@ -44,6 +44,7 @@ dependencies {
     implementation "mezz:jei:4.31.1"
     implementation "curse.maven:hwyla-253449:2568752"
     implementation "curse.maven:common-capabilities-247007:3053018"
+    implementation "curse.maven:cyclops-core-232758:3159497"
 }
 
 processResources {
