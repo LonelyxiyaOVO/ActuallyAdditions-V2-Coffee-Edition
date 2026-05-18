@@ -42,7 +42,7 @@ import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class ItemPotionRing extends ItemBase implements IColorProvidingItem, IDisplayStandItem {
+public class ItemPotionRing extends ItemBase implements IDisplayStandItem {
 
     public static final ThePotionRings[] ALL_RINGS = ThePotionRings.values();
 
@@ -170,12 +170,6 @@ public class ItemPotionRing extends ItemBase implements IColorProvidingItem, IDi
         for (int i = 0; i < ALL_RINGS.length; i++) {
             ActuallyAdditions.PROXY.addRenderRegister(new ItemStack(this, 1, i), this.getRegistryName(), "inventory");
         }
-    }
-
-    @Override
-    @SideOnly(Side.CLIENT)
-    public IItemColor getItemColor() {
-        return (stack, tintIndex) -> stack.getItemDamage() >= ALL_RINGS.length ? 0xFFFFFF : ALL_RINGS[stack.getItemDamage()].color;
     }
 
     @Override
