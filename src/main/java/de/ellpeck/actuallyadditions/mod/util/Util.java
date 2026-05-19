@@ -36,7 +36,7 @@ public final class Util {
     }
 
     public static boolean isDevVersion() {
-        return ActuallyAdditions.VERSION.equals("@VERSION@");
+        return "@VERSION@".equals(ActuallyAdditions.VERSION);
     }
 
     public static boolean isClient() {
@@ -44,14 +44,14 @@ public final class Util {
     }
 
     private static String[] splitVersion() {
-        return ActuallyAdditions.VERSION.split("-");
+        return ActuallyAdditions.VERSION == null ? new String[0] : ActuallyAdditions.VERSION.split("-");
     }
 
     public static String getMcVersion() {
-        return splitVersion()[0];
+        return splitVersion().length > 0 ? splitVersion()[0] : "UNKNOWN";
     }
 
     public static String getMajorModVersion() {
-        return splitVersion()[1].substring(1);
+        return isDevVersion() ? "DEV" : splitVersion().length > 1 ? (splitVersion()[1].length() > 1 ? splitVersion()[1].substring(1) : splitVersion()[1]) : "UNKNOWN";
     }
 }
