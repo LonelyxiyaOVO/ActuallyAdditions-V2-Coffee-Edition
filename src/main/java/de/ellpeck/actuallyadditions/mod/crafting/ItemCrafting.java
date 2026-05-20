@@ -292,7 +292,7 @@ public final class ItemCrafting {
         recipeCoil = RecipeUtil.lastIRecipe();
 
         //Cup
-        RecipeHandler.addOreDictRecipe(new ItemStack(InitItems.itemMisc, 1, TheMiscItems.CUP.ordinal()), "S S", "SCS", "SSS", 'S', "stone", 'C', "cropCoffee");
+        RecipeHandler.addOreDictRecipe(new ItemStack(InitItems.itemMisc, 1, TheMiscItems.CUP.ordinal()), "1 1", "1 1", "111", '1', "gemQuartz");
         recipeCup = RecipeUtil.lastIRecipe();
 
         //Resonant Rice
