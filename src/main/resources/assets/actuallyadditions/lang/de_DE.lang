@@ -736,13 +736,6 @@ container.actuallyadditions.laserRelayFluids.name=Fluid Laser Relay
 container.actuallyadditions.distributorItem.name=Item Distributor
 container.actuallyadditions.fireworkBox.name=Feuerwerkskiste
 
-#Update Information
-info.actuallyadditions.update.generic=[{"text":"Es ist ein "},{"text":"Actually Additions","color":"dark_green"},{"text":"-Update verfügbar!","color":"none"}]
-info.actuallyadditions.update.versionCompare=[{"text":"Verwendete Version: "},{"text":"%s","color":"dark_red"},{"text":", neuste Version: ","color":"none"},{"text":"%s","color":"dark_green"}]
-info.actuallyadditions.update.buttons=[{"text":"["},{"text":"Klicke hier für den Changelog","color":"green","clickEvent":{"action":"open_url","value":"%s"}},{"text":"] [","color":"none"},{"text":"Klicke hier für den Download","color":"green","clickEvent":{"action":"open_url","value":"%s"}},{"text":"]","color":"none"}]
-info.actuallyadditions.update.buttonOptions=Klick: Changelog, [Umschalt]-Klick: Download! (Im Browser)
-info.actuallyadditions.update.failed=[{"text":"Die Überprüfung nach "},{"text":"Actually Additions","color":"dark_green"},{"text":"-Updates ist fehlgeschlagen! In den Logs findest du weite Informationen!","color":"none"}]
-
 #Achievements
 achievement.actuallyadditions.openBooklet=Geschrei des Wissens
 achievement.actuallyadditions.openBooklet.desc=Öffne ein Actually Additions-Handbuch

@@ -78,7 +78,6 @@ import de.ellpeck.actuallyadditions.mod.tile.TileEntityPhantomface;
 import de.ellpeck.actuallyadditions.mod.tile.TileEntityPlayerInterface;
 import de.ellpeck.actuallyadditions.mod.tile.TileEntityRangedCollector;
 import de.ellpeck.actuallyadditions.mod.tile.TileEntityShockSuppressor;
-import de.ellpeck.actuallyadditions.mod.update.UpdateChecker;
 import de.ellpeck.actuallyadditions.mod.util.Util;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
@@ -314,7 +313,7 @@ public final class InitBooklet {
         new BookletChapter("batteries", ActuallyAdditionsAPI.entryItemsRF, new ItemStack(InitItems.itemBatteryTriple), new PageTextOnly(1), new PageCrafting(2, ItemCrafting.recipeBattery).setNoText(), new PageCrafting(3, ItemCrafting.recipeBatteryDouble).setNoText(), new PageCrafting(4, ItemCrafting.recipeBatteryTriple).setNoText(), new PageCrafting(5, ItemCrafting.recipeBatteryQuadruple).setNoText(), new PageCrafting(6, ItemCrafting.recipeBatteryQuintuple).setNoText());
 
         //Updates and infos
-        new BookletChapter("changelog", ActuallyAdditionsAPI.entryUpdatesAndInfos, new ItemStack(Items.CLOCK), new PageLinkButton(1, UpdateChecker.CHANGELOG_LINK));
+        new BookletChapter("changelog", ActuallyAdditionsAPI.entryUpdatesAndInfos, new ItemStack(Items.CLOCK), new PageLinkButton(1, "http://ellpeck.de/actaddchangelog"));
         new BookletChapter("curse", ActuallyAdditionsAPI.entryUpdatesAndInfos, new ItemStack(Items.FLINT_AND_STEEL), new PageLinkButton(1, "http://ellpeck.de/actadd"));
         new BookletChapter("patreon", ActuallyAdditionsAPI.entryUpdatesAndInfos, new ItemStack(InitItems.itemCrystal, 1, TheCrystals.EMERALD.ordinal()), new PageLinkButton(1, "http://patreon.com/Ellpeck"), new PagePicture(2, "page_patreon", 153)).setImportant();
         new BookletChapter("website", ActuallyAdditionsAPI.entryUpdatesAndInfos, new ItemStack(InitItems.itemBooklet), new PageLinkButton(1, "http://ellpeck.de"));

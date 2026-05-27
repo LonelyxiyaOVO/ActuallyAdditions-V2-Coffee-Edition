@@ -731,13 +731,6 @@ container.actuallyadditions.laserRelayFluids.name=Relais laser à fluides
 container.actuallyadditions.distributorItem.name=Répartiteur d'objets
 container.actuallyadditions.fireworkBox.name=boîte à feux d'artifice
 
-#Infos Mises à jour
-info.actuallyadditions.update.generic=[{"text":"Mise à jour pour "},{"text":"Actually Additions ","color":"dark_green"},{"text":"disponible!","color":"none"}]
-info.actuallyadditions.update.versionCompare=[{"text":"Version actuelle: "},{"text":"%s","color":"dark_red"},{"text":", dernière version: ","color":"none"},{"text":"%s","color":"dark_green"}]
-info.actuallyadditions.update.buttons=[{"text":"["},{"text":"Cliquez pour voir l'historique des modifications","color":"green","clickEvent":{"action":"open_url","value":"%s"}},{"text":"] [","color":"none"},{"text":"Cliquez pour télécharger","color":"green","clickEvent":{"action":"open_url","value":"%s"}},{"text":"]","color":"none"}]
-info.actuallyadditions.update.buttonOptions=Clic: Historique des modifications, Shift-Clic: Télechargement! (Ouvre le navigateur)
-info.actuallyadditions.update.failed=[{"text":"La recherge de mises à jour pour "},{"text":"Actually Additions ","color":"dark_green"},{"text":"à échouée! Consultez les logs pour plus d'informations...","color":"none"}]
-
 #Succès
 achievement.actuallyadditions.openBooklet=La Source du savoir!
 achievement.actuallyadditions.openBooklet.desc=Ouvrez un manuel d'Actually Additions

@@ -735,13 +735,6 @@ container.actuallyadditions.laserRelayFluids.name=Жидкостное лазе�
 container.actuallyadditions.distributorItem.name=Распределитель предметов
 container.actuallyadditions.fireworkBox.name=Ящик фейрверков
 
-# Информация об обновлении
-info.actuallyadditions.update.generic=[{"text":"Есть новое обновление для "},{"text":"Actually Additions ","color":"dark_green"}]
-info.actuallyadditions.update.versionCompare=[{"text":"Текущая версия: "},{"text":"%s","color":"dark_red"},{"text":", новейшая версия: ","color":"none"},{"text":"%s","color":"dark_green"}]
-info.actuallyadditions.update.buttons=[{"text":"["},{"text":"Нажмите для списка изменений","color":"green","clickEvent":{"action":"open_url","value":"%s"}},{"text":"] [","color":"none"},{"text":"Нажмите чтобы скачать","color":"green","clickEvent":{"action":"open_url","value":"%s"}},{"text":"]","color":"none"}]
-info.actuallyadditions.update.buttonOptions=ЛКМ: Список изменений, Shift-ЛКМ: Скачивание! (Браузер по умолчанию)
-info.actuallyadditions.update.failed=[{"text":"Проверка обновлений для "},{"text":"Actually Additions ","color":"dark_green"},{"text":"провалена! Посмотрите журнал аудита для дополнительной информации!","color":"none"}]
-
 # Достижения
 achievement.actuallyadditions.openBooklet=Носитель знаний!
 achievement.actuallyadditions.openBooklet.desc=Откройте мануал Actually Additions
