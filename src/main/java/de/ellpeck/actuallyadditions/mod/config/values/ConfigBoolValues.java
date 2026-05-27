@@ -28,17 +28,6 @@ public enum ConfigBoolValues {
 
     GENERATE_QUARTZ("Black Quartz", ConfigCategories.WORLD_GEN, true, "Shold Black Quartz generate in the world?"),
 
-    DO_UPDATE_CHECK(
-            "Do Update Check",
-            ConfigCategories.OTHER,
-            true,
-            "If true, Actually Additions Checks for updates on World Load."),
-    UPDATE_CHECK_VERSION_SPECIFIC(
-            "Version Specific Update Checker",
-            ConfigCategories.OTHER,
-            true,
-            "If true, Actually Additions' Update Checker searches for updates for the Minecraft Version you currently play on."),
-
     DO_CAT_DROPS("Do Cat Drops", ConfigCategories.OTHER, true, "If true, Cats drop Hairy Balls Occasionally."),
     WORMS("Worms", ConfigCategories.OTHER, true, "If true, worms will drop from tilling the soil."),
 

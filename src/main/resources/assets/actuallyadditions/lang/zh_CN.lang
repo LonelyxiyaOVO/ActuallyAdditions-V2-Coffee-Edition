@@ -732,14 +732,6 @@ container.actuallyadditions.laserRelayFluids.name=流体激光中继器
 container.actuallyadditions.distributorItem.name=物品分配器
 container.actuallyadditions.fireworkBox.name=烟花发射器
 
-
-info.actuallyadditions.update.generic=[{"text":"有新的"},{"text":"实用拓展","color":"dark_green"},{"text":"版本可用！","color":"none"}]
-info.actuallyadditions.update.versionCompare=[{"text":"当前版本:"},{"text":"%s","color":"dark_red"},{"text":",最新版本:","color":"none"},{"text":"%s","color":"dark_green"}]
-info.actuallyadditions.update.buttons=[{"text":"["},{"text":"点击以查看更新日志","color":"green","clickEvent":{"action":"open_url","value":"%s"}},{"text":"][","color":"none"},{"text":"点击以下载","color":"green","clickEvent":{"action":"open_url","value":"%s"}},{"text":"]","color":"none"}]
-info.actuallyadditions.update.buttonOptions=单击:更新日志，按住Shift键单击:下载！(在浏览器中)
-info.actuallyadditions.update.failed=[{"text":"实用拓展","color":"dark_green"},{"text":"的更新检查失败！查看日志文件以了解更多信息！","color":"none"}]
-
-
 achievement.actuallyadditions.openBooklet=知识的海洋
 achievement.actuallyadditions.openBooklet.desc=打开实用拓展指导手册
 

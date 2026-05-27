@@ -39,7 +39,6 @@ import de.ellpeck.actuallyadditions.mod.recipe.EmpowererHandler;
 import de.ellpeck.actuallyadditions.mod.recipe.HairyBallHandler;
 import de.ellpeck.actuallyadditions.mod.recipe.TreasureChestHandler;
 import de.ellpeck.actuallyadditions.mod.tile.TileEntityBase;
-import de.ellpeck.actuallyadditions.mod.update.UpdateChecker;
 import de.ellpeck.actuallyadditions.mod.util.compat.CompatUtil;
 import net.minecraft.launchwrapper.Launch;
 import net.minecraft.server.MinecraftServer;
@@ -101,7 +100,6 @@ public class ActuallyAdditions {
         InitToolMaterials.init();
         InitArmorMaterials.init();
         InitFluids.init();
-        new UpdateChecker();
         PROXY.preInit(event);
 
         ActuallyAdditions.LOGGER.info("PreInitialization Finished.");

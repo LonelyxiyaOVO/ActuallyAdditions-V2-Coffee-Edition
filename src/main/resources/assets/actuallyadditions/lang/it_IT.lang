@@ -735,13 +735,6 @@ container.actuallyadditions.laserRelayFluids.name=Trasmettitore laser di fluidi
 container.actuallyadditions.distributorItem.name=Distributore di oggetti
 container.actuallyadditions.fireworkBox.name=Scatola di fuochi d'artificio
 
-#Update Information
-info.actuallyadditions.update.generic=[{"text":"C'è un aggiornamento per "},{"text":"Actually Additions ","color":"dark_green"},{"text":"disponibile!","color":"none"}]
-info.actuallyadditions.update.versionCompare=[{"text":"Versione corrente: "},{"text":"%s","color":"dark_red"},{"text":", versione più recente: ","color":"none"},{"text":"%s","color":"dark_green"}]
-info.actuallyadditions.update.buttons=[{"text":"["},{"text":"Clicca per l'elenco delle modifiche","color":"green","clickEvent":{"action":"open_url","value":"%s"}},{"text":"] [","color":"none"},{"text":"Clicca per scaricarlo","color":"green","clickEvent":{"action":"open_url","value":"%s"}},{"text":"]","color":"none"}]
-info.actuallyadditions.update.buttonOptions=Click: Elenco delle modifiche, Shift-Click: Scarica! (Nel browser)
-info.actuallyadditions.update.failed=[{"text":"Il controllo degli aggiornamenti per "},{"text":"Actually Additions ","color":"dark_green"},{"text":"è fallito! Controlla i file di log per maggiori dettagli!","color":"none"}]
-
 #Achievements
 achievement.actuallyadditions.openBooklet=Portatore di conoscenza!
 achievement.actuallyadditions.openBooklet.desc=Apri un Manuale di Actually Additions
