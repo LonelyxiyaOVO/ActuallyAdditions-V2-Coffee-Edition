@@ -3,10 +3,18 @@
   "textures": {
     "layer0": "actuallyadditions:items/item_worm"
   },
-  "overrides": [{
-    "predicate": {
-      "actuallyadditions:snail": 1
+  "overrides": [
+    {
+      "predicate": {
+        "actuallyadditions:snail": 1
+      },
+      "model": "actuallyadditions:item/item_snail"
     },
-    "model": "actuallyadditions:item/item_snail"
-  }]
+    {
+      "predicate": {
+        "actuallyadditions:snail": 2
+      },
+      "model": "actuallyadditions:item/item_old_worm"
+    }
+  ]
 }

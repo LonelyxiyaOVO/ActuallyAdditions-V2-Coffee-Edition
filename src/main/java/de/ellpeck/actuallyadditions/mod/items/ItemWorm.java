@@ -50,7 +50,12 @@ public class ItemWorm extends ItemBase {
             @Override
             @SideOnly(Side.CLIENT)
             public float apply(ItemStack stack, World world, EntityLivingBase entity) {
-                return "snail mail".equalsIgnoreCase(stack.getDisplayName()) ? 1F : 0F;
+                String name = stack.getDisplayName();
+
+                if ("Gerard".equalsIgnoreCase(name)) return 0F;
+                if ("Robert".equalsIgnoreCase(name)) return 2F;
+
+                return 0F;
             }
         });
     }
@@ -65,7 +70,14 @@ public class ItemWorm extends ItemBase {
                 if (!world.isRemote) {
                     EntityWorm worm = new EntityWorm(world);
                     worm.setPosition(pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5);
-                    worm.setCustomNameTag(stack.getDisplayName());
+                    switch (world.rand.nextInt(2)) {
+                        case 0:
+                            worm.setCustomNameTag("Gerard");
+                            break;
+                        case 1:
+                            worm.setCustomNameTag("Robert");
+                            break;
+                    }
                     world.spawnEntity(worm);
                     if (!player.capabilities.isCreativeMode) stack.shrink(1);
                 }
