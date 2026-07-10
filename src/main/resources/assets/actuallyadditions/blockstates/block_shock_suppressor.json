@@ -1,7 +1,7 @@
 {
   "forge_marker": 1,
   "defaults": {
-    "model": "minecraft:cube_all",
+    "model": "actuallyadditions:block/block_shock_absorber",
     "textures": {
       "all": "actuallyadditions:blocks/block_shock_absorber"
     },
