@@ -4,7 +4,7 @@
 	"textures": {
 		"particle": "actuallyadditions:blocks/block_base_texture",
 		"base": "actuallyadditions:blocks/block_base_texture",
-		"inside": "actuallyadditions:blocks/block_shock_absorber"
+		"inside": "actuallyadditions:blocks/block_shock_suppressor"
 	},
 	"elements": [
 		{

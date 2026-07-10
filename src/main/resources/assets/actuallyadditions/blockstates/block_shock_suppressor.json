@@ -1,14 +1,26 @@
 {
-  "forge_marker": 1,
-  "defaults": {
-    "model": "actuallyadditions:block/block_shock_absorber",
-    "textures": {
-      "all": "actuallyadditions:blocks/block_shock_absorber"
+    "forge_marker": 1,
+    "defaults": {
+        "model": "actuallyadditions:block_shock_suppressor",
+        "textures": {
+            "particle": "actuallyadditions:blocks/block_shock_suppressor",
+            "down": "#particle",
+            "south": "#particle",
+            "east": "#particle",
+            "west": "#particle"
+        },
+        "transform": "forge:default-block"
     },
-    "transform": "forge:default-block"
-  },
-  "variants": {
-    "normal": [{}],
-    "inventory": [{}]
-  }
+    "variants": {
+        "normal": [{}],
+        "inventory": [{}],
+        "facing": {
+            "down": { "x" : 90 },
+            "up": { "x" : 270 },
+            "north": { "y" : 0 },
+            "south": { "y" : 180 },
+            "west": { "y" : 270 },
+            "east": { "y" : 90 }
+        }
+    }
 }
